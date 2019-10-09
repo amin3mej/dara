@@ -4,8 +4,14 @@ import {Dimensions} from 'react-native';
 const {width, height} = Dimensions.get('window');
 
 export const colors = {
-  $CRaise: '#23c2a0',
-  $CWithdrawal: '#f18e61',
+  $CHeader: '#181B48',
+
+  $CProfit: '#49C29F',
+  $CLoss: '#FEC434',
+  $CTotal: '#6EB6FE',
+
+  $CPricePrimary: 'white',
+  $CPriceSecondary: 'white',
 };
 
 EStyleSheet.build({
